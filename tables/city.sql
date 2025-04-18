@@ -1,6 +1,6 @@
 CREATE TABLE `city` (
   `city_id` smallint unsigned NOT NULL AUTO_INCREMENT,
-  `city` varchar(46) NOT NULL,
+  `city` varchar(67) NOT NULL,
   `teste` varchar(255) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `country_id` smallint unsigned NOT NULL,
